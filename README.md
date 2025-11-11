@@ -32,8 +32,13 @@ Server: http://localhost:8080
 🔗 API Endpoints
 Method	Endpoint	Description
 GET	/api/todos	Get all tasks
+
 POST	/api/todos	Create task
+
 PUT	/api/todos/{id}	Update task
+
 DELETE	/api/todos/{id}	Soft delete
+
 POST	/api/todos/{id}/restore	Restore task
+
 GET	/api/todos/completed	Completed tasks
